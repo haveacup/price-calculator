@@ -311,11 +311,11 @@
     <div class="toggle three">
       <label>
         <input type="radio" name="day" value="weekday" checked>
-        <div class="opt">平日<small>最低 10 人</small></div>
+        <div class="opt">平日<small>最低 8 人</small></div>
       </label>
       <label>
         <input type="radio" name="day" value="holiday">
-        <div class="opt">假日<small>最低 20 人<br>需場地費</small></div>
+        <div class="opt">假日<small>最低 12 人<br>需場地費</small></div>
       </label>
       <label id="nightLabel">
         <input type="radio" name="day" value="night">
@@ -395,7 +395,7 @@ const ADDONS = [
   {id:"bday",emo:"🎂",name:"生日派對"},
 ];
 const ADDON_PRICE = 2999;
-const MIN = {weekday:10, holiday:20, night:15};
+const MIN = {weekday:8, holiday:12, night:15};
 // 鹹食方案(B) 20人含佈置 優惠組合價：底價(含20人+佈置) + 每多一人加價
 const PROMO = {
   weekday:{base:9900,  extra:349, venueIncluded:false},
